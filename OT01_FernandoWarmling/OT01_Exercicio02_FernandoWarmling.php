@@ -1,5 +1,5 @@
 <?php
-$numeroDefinir = 3;
+$numeroDefinir = 3101;
 $restoDaDivisao = $numeroDefinir % 2;
 
 if($restoDaDivisao == 0){
