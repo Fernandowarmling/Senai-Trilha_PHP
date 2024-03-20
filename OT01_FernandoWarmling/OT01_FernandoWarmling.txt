@@ -1,0 +1,80 @@
+<?php
+
+/*
+
+Data:19/03/2024
+Nome:Fernando Warmling
+
+*/
+
+?>
+
+1. Explique a diferença entre variáveis do tipo string e do tipo inteiro em PHP.
+
+1.R As veriaveis de tipo "string" sao formadas por caracteres sendo assim elas tem como padrao a utilização
+de "Aspas" para fim de sua identificação um conjunto de caracteres formam uma String ou seja uma palavra,quanto
+as variaveis de tipo inteiro sao representadadas via numerais exemplo sem a delimitação por Aspas
+"1"-> String 
+ 1 -> inteiro
+Os inteiros fazem partes dos numeros naturais mas diferente dos demais eles não possuem continuação acima 
+de zero nas casas apos decimais e milesimais, são exemplos 1 10 100 1000 10000
+
+
+2. Quais são os operadores lógicos mais comuns em PHP e como eles são utilizados
+em expressões condicionais?
+
+2.R Os operadores logicos são &&,|| e ! utilizados juntamente com as expressoes de  comparação 
+podem fornecer resultados do tipo boolean  quando alocados dentro de operações de controle
+tipo compondo a operadores
+
+3. Como você definiria a tipagem dinâmica em PHP? Dê um exemplo.
+
+3.R Diretentemente do Java onde tinhamos que declara o Tipo da varicavel o Php nao possui essa nescessidade 
+por isso ele é conhcido como dinamicamente tipado
+
+Em java 
+String Texto = "Mariazinha"
+Em Php
+$Texto = "Mariazinha"
+
+Não havendo a nescessidade de distinguir qual o tipo da varivel
+
+4. Explique o propósito da estrutura de controle if e forneça um exemplo de uso.
+
+4.R A Estrutura de controle If tem como proposito validar uma informação e controlar o fluxo de trabalho
+em uma eventual tomada de decissão do sistema 
+
+$valor = 10
+
+if($valor > 10){
+   $valor = $valor -($valor * 0.10)
+   echo= "O valor a pagar é : " + $valor 
+}else{
+    $valor = $valor -($valor * 0.05)
+    echo= "O valor a pagar é : " + $valor 
+}
+
+
+5. O que é o operador de módulo (%) e como ele pode ser útil em PHP?
+
+5.R O simbolo de % quer dizer o resto de divisao ele pode ser util em algumas situações uma aplicação 
+seria determinar se o numeto é par ou impar quanto dividimos um numero inteiro, 
+pois ele segregra a parte inteira da decimais para operações de divisao 
+
+2%2 = 0 se diferente de zero é impar 
+
+
+6. Qual é a importância do ponto e vírgula (;) no final de uma instrução PHP?
+
+6.R O ";" de determina o final de uma ação(declaração) do Php
+
+7. Descreva o funcionamento da estrutura de controle switch e forneça um exemplo
+prático.
+
+8. Por que é importante escolher nomes de variáveis significativas ao programar em
+PHP?
+
+9. Como você concatenaria duas strings em PHP?
+
+10. Explique o conceito de variáveis de tipo booleano e forneça um exemplo de
+utilização.
