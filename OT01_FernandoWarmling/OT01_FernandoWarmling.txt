@@ -51,7 +51,7 @@ if($valor > 10){
    echo= "O valor a pagar é : " + $valor 
 }else{
     $valor = $valor -($valor * 0.05)
-    echo= "O valor a pagar é : " + $valor 
+    echo= "O valor a pagar é : $valor."
 }
 
 
@@ -71,10 +71,40 @@ pois ele segregra a parte inteira da decimais para operações de divisao
 7. Descreva o funcionamento da estrutura de controle switch e forneça um exemplo
 prático.
 
+7.R O switch funciona é um caso de escolha onde podemos oferecer uma gama de opções de conforme o processo 
+de escolha e qual escolha for feita o switch executara a programação escolhida pelo usuario.
+
 8. Por que é importante escolher nomes de variáveis significativas ao programar em
 PHP?
 
+8.R Os nomes de veriaveis assim como nas demais linguagens devem ser capaz de expressao a funcionalidade do 
+valor que ele armazenara sem interferir nos quisitos de palavras reservadas de cada programa.
+
 9. Como você concatenaria duas strings em PHP?
+
+9.R A concatenaçaõ de strings no Php se da pela utilização do ponto porem possui duas formas aplicaveis
+
+$variavelA = "ola "
+$variavelB = $variavelA . "mundo!"
+
+ou 
+
+$variavelA .= "mundo"
 
 10. Explique o conceito de variáveis de tipo booleano e forneça um exemplo de
 utilização.
+
+10.R as veriaveis booleanos possuiem dois valores TRUE e FALSE por sua vez sao utilizadas em estruturas
+condiconais por sua vez geramente começam setadas como TRUE e se modificam ao decorer do programa 
+muitas vezes em estruras condicionais e de controle
+
+$valorUm = 1
+$valorDois = 2
+
+$umemaiorquedois = TRUE
+
+If($valorUm < $valorDois){
+    $umemaiorquedois = FALSE
+}
+
+echo "Valor um é maior que dois ? $umemaiorquedois"
