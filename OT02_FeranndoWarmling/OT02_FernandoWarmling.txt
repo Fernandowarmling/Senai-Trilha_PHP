@@ -1,0 +1,50 @@
+Exercícios Teóricos:
+1. Teórico: Conceitos Básicos
+● Explique o que são funções predefinidas em PHP e forneça um exemplo de
+uma função predefinida comum.
+
+1.R. As funções predefinidas são conhecidas como funções nativas de uma linguagens de programação tem como papel dar agilidade devido a sua
+variedade de funções que elas incorporam no PHP principalmente em manipulação de string e arrays.
+
+2. Teórico: Parâmetros e Retorno
+● Descreva a importância de utilizar parâmetros em funções. Dê um exemplo
+prático de uma função com parâmetros.
+
+2.R. Os parametros nas funções tem como função ser o oque se espera  receber de variaveis um uma função para que a mesma possa funcionar de maneira correta 
+e assim tendo interferencia no funcionamento correto da função.
+
+
+function somaValores ($a,$b){
+  $soma = ($a+$b)
+  return $soma
+  
+ $somaValores = somaValores(10,10) 
+o valor da Soma sera 20
+
+  
+3. Teórico: Diferença entre Funções Personalizadas e Predefinidas
+
+● Compare as funções personalizadas e predefinidas em termos de definição,
+chamada e aplicação em projetos PHP.
+
+3.R.Ao analisarmos as funções personalizadas como o proprio nome ja diz elas servem para o prosito para a qual foi criada atendo a nescessidade que a criou,
+tendo assim a necessidade de criação da função e despendo tempo de programção para o desenvolvimetno da mesma, podendo -se utilizar de funcções pre-definidas
+dentro da mesma, quanto as pré definidas se aplicam em diversos momentos dando agilidade na utilziação das mesmas e muitas das vezes atendendo necessidades basicas 
+sem a despendio de tempo para criação de novas funções.
+
+4. Teórico: Manipulação de Strings
+● Liste três funções predefinidas do PHP utilizadas para manipulação de
+strings e explique brevemente o que cada uma realiza.
+
+
+4.R. strlen($string): - Lista o tamanho(quantos Carecteres possui em uma string)
+strtoupper($string): - passa as letras minusculas de uma string para maiusculas 
+substr($string, $start, $length):  Extrai a parte especifica de uma string a partir do ponto de inicio representado por $start e #length representa
+a quantidade de caracteres a serem eliminados a partir do $start
+
+
+5. Teórico: Manipulação de Arrays
+● Explique como a função array_push() pode ser útil na manipulação de arrays
+em PHP. Dê um exemplo prático.
+
+5.R.o array_push adiciona elemento um novo elemento ao arry com isso podemos  utiliza-lo para alimentação de listas para fins de incluoes de novos termos em uma array.
